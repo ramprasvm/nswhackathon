@@ -1,0 +1,8 @@
+
+1. Command to execute the parent control app
+
+	ryu-manager --verbose /usr/local/lib/python2.7/dist-packages/ryu/app/parent_control.py > /var/www/html/logs.html 
+
+2. Install apache web browser to monitor logs browse http://controller-ip-address/logs.html
+
+3. Config file "conf.ini" should be placed in current directory from where you want to execute the application.
